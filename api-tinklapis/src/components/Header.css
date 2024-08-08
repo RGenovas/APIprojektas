@@ -1,0 +1,77 @@
+/* Navbaras/Headeris */
+.header-container {
+    width:100%;
+    background-color: #a0a1a5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header {
+    width:1400px;
+    padding:1em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    height:53px;
+    display:flex;
+    align-items: center;
+    background-color: #a0a1a5;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+.header-links {
+  
+    width:612px;
+    height:47px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2em;
+}
+
+.logo {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 600;
+    font-size:32px;
+}
+
+.header-links h3{color:white; }
+
+.headerDark-links h3{color:rgb(20, 20, 20);}
+
+.active {
+    text-decoration: none;
+}
+.active h3{color:#2a4c9b;}
+ 
+ a:not(.active) {text-decoration: none;}
+
+.footer-container {
+    width:100%;
+    height:50px;
+    background-color: #a0a1a5;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container h3 {
+    margin-top:10px;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    color:#d6c0c0;
+
+}
+
+.line {
+    width:1000px;
+    border-bottom:2px solid rgb(243, 239, 239);
+   
+}

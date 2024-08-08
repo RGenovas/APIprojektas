@@ -1,0 +1,29 @@
+.home-content{
+    width:1400px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap:2px;
+   
+}
+
+.recordInfo {
+  margin:1em;
+  padding:5px;
+  text-align: center;
+
+}
+
+.recordInfo:hover{
+  border:1px solid lightblue;
+}
+
+.recordInfo img {
+    width:200px;
+    height:200px;
+}
+
+.recordInfo button{
+  background-color: black;
+  color:#fff;
+}

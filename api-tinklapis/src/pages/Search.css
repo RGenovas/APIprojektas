@@ -1,0 +1,27 @@
+.searchwindow{
+    margin:0 auto;
+    width:1400px;
+    height:1400px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.search-input{
+    width:600px;
+    padding:20px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.search-input input{
+   width:80%;
+
+}
+
+.search-btn {
+    margin-left:10px;
+    color:#fff;
+    background-color: black;
+}
